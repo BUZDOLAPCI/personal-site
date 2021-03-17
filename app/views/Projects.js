@@ -75,11 +75,11 @@ const Projects = () => (
 
       <p> These are works that I have done during my time at HUCG Research Team. All software implementations in following works except management, content preperation and ML benchmarkings belong to me.</p>
       
-      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://1drv.ms/b/s!As78vRwJjLxTgesz7sqFIHlmKmdDFg?e=8GzDmK'>
+      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL2IvcyFBc1lVRGRWMVd2RWZoMFpUYUxrTXk1UGlFc1ZxP2U9cnRsOEFu/root/content'>
         <img style={{height: 160}} src={`${BASE_PATH}/images/projects/computer_vision.jpg`} alt="" />
       </a>
       <p>
-        <a href = 'https://1drv.ms/b/s!As78vRwJjLxTgesz7sqFIHlmKmdDFg?e=8GzDmK'>Rendering Virtual Worlds with Humans for Computer Vision Tasks</a> (First Authored)
+        <a href = 'https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL2IvcyFBc1lVRGRWMVd2RWZoMFpUYUxrTXk1UGlFc1ZxP2U9cnRsOEFu/root/content'>Rendering Virtual Worlds with Humans for Computer Vision Tasks</a>
       </p>
       
       <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://hucvl.github.io/synthetic18k/'>
@@ -89,12 +89,18 @@ const Projects = () => (
         <a href = 'https://hucvl.github.io/synthetic18k/'> Synthetic18K: Learning Better Representations for Person Re-ID and Attribute Recognition from 1.4 Million Synthetic Images </a>
       </p>
       
-      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://www.researchgate.net/publication/328439189_The_Virtual_Cafeteria_An_Immersive_Environment_for_Interactive_Food_Portion-Size_Education'>
+      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://dl.acm.org/citation.cfm?id=3279960'>
         <img style={{height: 130}} src={`${BASE_PATH}/images/projects/vr_cafe.jpg`} alt="" />
       </a>
       <p>
-        <a href = 'https://www.researchgate.net/publication/328439189_The_Virtual_Cafeteria_An_Immersive_Environment_for_Interactive_Food_Portion-Size_Education'> The Virtual Cafeteria: An Immersive Environment for Interactive Food Portion-Size Education. In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction </a> (Second Authored)
+        <a href = 'https://dl.acm.org/citation.cfm?id=3279960'> The Virtual Cafeteria: An Immersive Environment for Interactive Food Portion-Size Education. In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction </a>
       </p>
+
+      <h3>Hobby Projects</h3>
+
+      <p>Some side projects I worked on which ended up seeing the light of day:</p>
+      <iframe src="https://store.steampowered.com/widget/1351950/?t=Have%20you%20ever%20said%20to%20yourself%20%22This%20FPS%20game%20is%20really%20good%2C%20but%20you%20know%20what%20would%20really%20put%20it%20over%20the%20top%3F%20If%20my%20gun%20barrel%20would%20flap%20around%20like%20a%20nude%20skydiving%20man.%22%3F%20Well%2C%20we%20got%20your%20back%3A" frameborder="0" width="646" height="190"></iframe>
+      <p style={{marginTop: -6}}>A multiplayer first-person shooter with a twist that I single-handedly worked on and ended up self-publishing on <a href = 'https://store.steampowered.com/app/1351950/Projectile_Dysfunction/'> Steam</a>. Fun little project which allowed me to experience the wide range of works that goes into creating a product firsthand.</p><br />
 
       {/* {data.map((project) => (
         <Cell
