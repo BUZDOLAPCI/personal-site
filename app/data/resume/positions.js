@@ -33,7 +33,7 @@ const positions = [
     points: [
       'Developed a skyscanner-like application for a local travel agency, front-end and partial back-end.',
       'Small company, a start-up consisting of 3 developers including me. First journey into working culture.',
-      'Environment : C#, Js, .NET, React',
+      'Environment : C#, Javascript, .NET, React',
     ],
   }
 ];
