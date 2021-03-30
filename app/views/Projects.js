@@ -4,6 +4,10 @@ import Helmet from 'react-helmet';
 
 import Main from '../layouts/Main';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons'
+import faSteam from '@fortawesome/fontawesome-free-brands/faSteam';
+
 import Cell from '../components/Projects/Cell';
 import data from '../data/projects';
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
@@ -112,9 +116,52 @@ const Projects = () => (
       <h3>Hobby Projects</h3>
 
       <p>Some side projects I worked on which ended up seeing the light of day:</p>
-      <iframe src="https://store.steampowered.com/widget/1351950/?t=Have%20you%20ever%20said%20to%20yourself%20%22This%20FPS%20game%20is%20really%20good%2C%20but%20you%20know%20what%20would%20really%20put%20it%20over%20the%20top%3F%20If%20my%20gun%20barrel%20would%20flap%20around%20like%20a%20nude%20skydiving%20man.%22%3F%20Well%2C%20we%20got%20your%20back%3A" frameborder="0" width="646" height="190"></iframe>
-      <p style={{marginTop: -6}}>A multiplayer first-person shooter with a twist that I single-handedly worked on and ended up self-publishing on <a href = 'https://store.steampowered.com/app/1351950/Projectile_Dysfunction/'> Steam</a>. Fun little project which allowed me to experience the wide range of works that goes into creating a product firsthand.</p><br />
 
+      <div className="cell-container-horizontal">
+        <a href='https://store.steampowered.com/app/1351950/Projectile_Dysfunction/'>
+          <article className="mini-post-horizontal">
+            <div className="platform">
+              <FontAwesomeIcon icon={faSteam} />
+            </div>
+            <a className="image">
+              <img src={`${BASE_PATH}/images/projects/projectile_dysfunction_header.jpg`} />
+            </a>
+            <div>
+              <header>
+                <h3>Projectile Dysfunction on Steam</h3>
+              </header>
+              <div className="description">
+                <p>Have you ever said to yourself "This FPS game is really good, but I wish my gun barrel</p>
+                <p>would flap around like a nude skydiving man...</p>
+                <p><FontAwesomeIcon icon={faLink} /> store.steampowered.com</p>
+              </div>
+            </div>
+          </article>
+        </a>
+      </div>
+      <p style={{marginTop: -34}}>A multiplayer first-person shooter with a twist that I single-handedly worked on and ended up self-publishing on <a href = 'https://store.steampowered.com/app/1351950/Projectile_Dysfunction/'> Steam</a>. Fun little project which allowed me to experience the wide range of works that goes into creating a product firsthand.</p>
+      
+      <div className="cell-container-horizontal">
+        <a href='https://www.nexusmods.com/discoelysium/mods/11/'>
+          <article className="mini-post-horizontal">
+            <a className="image">
+              <img src={`${BASE_PATH}/images/projects/toggle_hud.jpg`} />
+            </a>
+            <div>
+              <header>
+                <h3>Toggle HUD</h3>
+              </header>
+              <div className="description">
+                <p>This lets you toggle the HUD off and on in-game with caps lock.</p>
+                <p><FontAwesomeIcon icon={faLink} /> nexusmods.com</p>
+              </div>
+            </div>
+          </article>
+        </a>
+      </div>
+
+      <p style={{marginTop: -34}}><a href = 'https://twitter.com/yacobg42/status/1339962209976389634?s=20'>Requested</a>  for a <a href = 'https://youtu.be/Md5PTWBuGpg'>youtube series</a> from the <a href = 'https://twitter.com/yacobg42/status/1339962209976389634?s=20'>creator</a> . Used <a href = 'https://github.com/bo3b/3Dmigoto'>3Dmigoto</a> to search for UI related shaders and override the output values.</p>
+      
       {/* {data.map((project) => (
         <Cell
           data={project}
