@@ -41,7 +41,7 @@ const Resume = () => (
         </div>
         <div className="title">
           <h4>Turkey based</h4>
-          <h4>23 Years Old</h4>
+          <h4>24 Years Old</h4>
           <h4>cemaslan96@outlook.com</h4>
           {/* <h2><Link to="resume">Resume</Link></h2> */}
           {/* <div className="link-container">
