@@ -92,11 +92,11 @@ const Projects = () => (
 
       <p> These are works that I have done during my time at HUCG Research Team. All software implementations in following works except management, content preperation and ML benchmarkings belong to me.</p>
       
-      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL2IvcyFBc1lVRGRWMVd2RWZoMFpUYUxrTXk1UGlFc1ZxP2U9cnRsOEFu/root/content'>
+      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://graphics.cs.hacettepe.edu.tr/NOVA/index.html'>
         <img style={{height: 160}} src={`${BASE_PATH}/images/projects/computer_vision.jpg`} alt="" />
       </a>
       <p>
-        <a href = 'https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL2IvcyFBc1lVRGRWMVd2RWZoMFpUYUxrTXk1UGlFc1ZxP2U9cnRsOEFu/root/content'>Rendering Virtual Worlds with Humans for Computer Vision Tasks</a>
+        <a href = 'https://graphics.cs.hacettepe.edu.tr/NOVA/index.html'>Rendering Virtual Worlds with Humans for Computer Vision Tasks</a>
       </p>
       
       <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://hucvl.github.io/synthetic18k/'>
