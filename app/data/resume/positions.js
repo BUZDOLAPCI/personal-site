@@ -18,7 +18,7 @@ const positions = [
     company: 'Hacettepe University Computer Graphics and Game Studies Lab',
     position: 'Researcher',
     link: 'https://graphics.cs.hacettepe.edu.tr/',
-    daterange: 'April 2017 - Present',
+    daterange: 'April 2017 - April 2021 | 3 years part-time',
     points: [
       'Research mainly consisting of developing synthetical data generation tools to a team of ML engineers.',
       'The research and development of VR solutions combined with motion capture technologies in context of "Serious Games".',
