@@ -92,25 +92,25 @@ const Projects = () => (
 
       <p> These are works that I have done during my time at HUCG Research Team. All software implementations in following works except management, content preperation and ML benchmarkings belong to me.</p>
       
-      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://graphics.cs.hacettepe.edu.tr/NOVA/index.html'>
+      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://graphics.cs.hacettepe.edu.tr/NOVA/index.html' target="_blank" rel="noopener noreferrer">
         <img style={{height: 160}} src={`${BASE_PATH}/images/projects/computer_vision.jpg`} alt="" />
       </a>
       <p>
-        <a href = 'https://graphics.cs.hacettepe.edu.tr/NOVA/index.html'>Rendering Virtual Worlds with Humans for Computer Vision Tasks</a>
+        <a href = 'https://graphics.cs.hacettepe.edu.tr/NOVA/index.html' target="_blank" rel="noopener noreferrer">Rendering Virtual Worlds with Humans for Computer Vision Tasks</a>
       </p>
       
-      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://hucvl.github.io/synthetic18k/'>
+      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://hucvl.github.io/synthetic18k/' target="_blank" rel="noopener noreferrer">
         <img style={{height: 160}} src={`${BASE_PATH}/images/projects/synthetic_18k_tod_weather_fade.jpg`} alt="" />
       </a>
       <p>
-        <a href = 'https://hucvl.github.io/synthetic18k/'> Synthetic18K: Learning Better Representations for Person Re-ID and Attribute Recognition from 1.4 Million Synthetic Images </a>
+        <a href = 'https://hucvl.github.io/synthetic18k/' target="_blank" rel="noopener noreferrer"> Synthetic18K: Learning Better Representations for Person Re-ID and Attribute Recognition from 1.4 Million Synthetic Images </a>
       </p>
       
-      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://dl.acm.org/citation.cfm?id=3279960'>
+      <a style={{borderBottomStyle: 'none', borderBottomWidth: 0}} href = 'https://dl.acm.org/citation.cfm?id=3279960' target="_blank" rel="noopener noreferrer">
         <img style={{height: 130}} src={`${BASE_PATH}/images/projects/vr_cafe.jpg`} alt="" />
       </a>
       <p>
-        <a href = 'https://dl.acm.org/citation.cfm?id=3279960'> The Virtual Cafeteria: An Immersive Environment for Interactive Food Portion-Size Education. In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction </a>
+        <a href = 'https://dl.acm.org/citation.cfm?id=3279960' target="_blank" rel="noopener noreferrer"> The Virtual Cafeteria: An Immersive Environment for Interactive Food Portion-Size Education. In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction </a>
       </p>
 
       <h3>Hobby Projects</h3>
@@ -118,7 +118,7 @@ const Projects = () => (
       <p>Some side projects I worked on which ended up seeing the light of day:</p>
 
       <div className="cell-container-horizontal">
-        <a href='https://store.steampowered.com/app/1351950/Projectile_Dysfunction/'>
+        <a href='https://store.steampowered.com/app/1351950/Projectile_Dysfunction/' target="_blank" rel="noopener noreferrer">
           <article className="mini-post-horizontal">
             <div className="platform">
               <FontAwesomeIcon icon={faSteam} />
@@ -139,10 +139,10 @@ const Projects = () => (
           </article>
         </a>
       </div>
-      <p style={{marginTop: -34}}>A multiplayer first-person shooter with a twist that I single-handedly worked on and ended up self-publishing on <a href = 'https://store.steampowered.com/app/1351950/Projectile_Dysfunction/'> Steam</a>. Fun little project which allowed me to experience the wide range of works that goes into creating a product firsthand.</p>
+      <p style={{marginTop: -34}}>A multiplayer first-person shooter with a twist that I single-handedly worked on and ended up self-publishing on <a href = 'https://store.steampowered.com/app/1351950/Projectile_Dysfunction/' target="_blank" rel="noopener noreferrer"> Steam</a>. Fun little project which allowed me to experience the wide range of works that goes into creating a product firsthand.</p>
       
       <div className="cell-container-horizontal">
-        <a href='https://www.nexusmods.com/discoelysium/mods/11/'>
+        <a href='https://www.nexusmods.com/discoelysium/mods/11/' target="_blank" rel="noopener noreferrer">
           <article className="mini-post-horizontal">
             <a className="image">
               <img src={`${BASE_PATH}/images/projects/toggle_hud.jpg`} />
