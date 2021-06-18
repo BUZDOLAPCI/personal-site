@@ -113,7 +113,7 @@ const Projects = () => (
         <a href = 'https://dl.acm.org/citation.cfm?id=3279960' target="_blank" rel="noopener noreferrer"> The Virtual Cafeteria: An Immersive Environment for Interactive Food Portion-Size Education. In Proceedings of the 3rd International Workshop on Multisensory Approaches to Human-Food Interaction </a>
       </p>
 
-      <h3>Hobby Projects</h3>
+      <h3>Hobby Stuff</h3>
 
       <p>Some side projects I worked on which ended up seeing the light of day:</p>
 
