@@ -32,11 +32,11 @@ const data = [
   //   label: 'Angel List',
   //   icon: faAngellist,
   // },
-  // {
-  //   link: 'https://twitter.com/meanerbeaver',
-  //   label: 'Twitter',
-  //   icon: faTwitter,
-  // },
+  {
+    link: 'https://twitter.com/meanerbeaver',
+    label: 'Twitter',
+    icon: faTwitter,
+  },
   {
     link: 'mailto:cemaslan96@outlook.com',
     label: 'Email',
