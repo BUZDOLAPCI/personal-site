@@ -5,8 +5,8 @@ const References = () => (
   <div className="references">
     <div className="link-to" id="references" />
     <div className="title">
-      <Link to="/contact">
-        <h3>References are available upon request</h3>
+      <Link to="/works">
+        <h3>Portfolio can be found at iamaslan.com/works</h3>
       </Link>
     </div>
   </div>

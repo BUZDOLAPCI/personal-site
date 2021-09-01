@@ -4,7 +4,7 @@ const positions = [
     company: 'Taleworlds Entertainment',
     position: 'Graphics Engineer',
     link: 'https://taleworlds.com',
-    daterange: 'Oct 2017 – Present | 3 years',
+    daterange: 'Oct 2017 – Present | 4 years',
     points: [
       'Design, implementation and optimization of Decal rendering system, features and tools for the artists.',
       'Cinematic Replay Editor and Offline Renderer optimization and maintenance.',
