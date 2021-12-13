@@ -7,6 +7,7 @@ import Main from '../layouts/Main';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 import faSteam from '@fortawesome/fontawesome-free-brands/faSteam';
+import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
 
 import Cell from '../components/Projects/Cell';
 import data from '../data/projects';
@@ -140,6 +141,29 @@ const Projects = () => (
         </a>
       </div>
       <p style={{marginTop: -34}}>A multiplayer first-person shooter with a twist that I single-handedly worked on and ended up self-publishing on <a href = 'https://store.steampowered.com/app/1351950/Projectile_Dysfunction/' target="_blank" rel="noopener noreferrer"> Steam</a>. Fun little project which allowed me to experience the wide range of works that goes into creating a product firsthand.</p>
+      
+      <div className="cell-container-horizontal">
+        <a href='https://github.com/BUZDOLAPCI/cod2unity' target="_blank" rel="noopener noreferrer">
+          <article className="mini-post-horizontal">
+            <div className="platform">
+              <FontAwesomeIcon icon={faGithub} />
+            </div>
+            <a className="image">
+              <img src={`${BASE_PATH}/images/projects/cod2unity.jpg`} />
+            </a>
+            <div>
+              <header>
+                <h3>cod2unity on GitHub</h3>
+              </header>
+              <div className="description">
+                <p>Call of Duty map loader for Unity</p>
+                <p><FontAwesomeIcon icon={faLink} /> github.com</p>
+              </div>
+            </div>
+          </article>
+        </a>
+      </div>
+      <p style={{marginTop: -34}}><a href = 'https://wiki.zeroy.com/index.php?title=Call_of_Duty_2:_d3dbsp' target="_blank" rel="noopener noreferrer"> D3DBSP</a> and <a href = 'http://wiki.xentax.com/index.php/Call_Of_Duty_2_IWI' target="_blank" rel="noopener noreferrer"> IWI</a> importer plugin for Unity. Goal was practice in reverse engineering, file formats and peripheral Unity systems. .</p>
       
       <div className="cell-container-horizontal">
         <a href='https://www.nexusmods.com/discoelysium/mods/11/' target="_blank" rel="noopener noreferrer">

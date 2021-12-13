@@ -18,7 +18,8 @@ You may wish to fork this repository or remove my remote origin and add your own
     cd personal-site
     npm install
     ```
-
+!!!!!! nvm install  then npm install 
+!!!!!![[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
     If you do not have `yarn` installed, you may run `npm install` instead.
 
 2. Next, you should create a `.env` file. To do this, run:
