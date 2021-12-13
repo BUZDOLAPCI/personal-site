@@ -163,7 +163,7 @@ const Projects = () => (
           </article>
         </a>
       </div>
-      <p style={{marginTop: -34}}><a href = 'https://wiki.zeroy.com/index.php?title=Call_of_Duty_2:_d3dbsp' target="_blank" rel="noopener noreferrer"> D3DBSP</a> and <a href = 'http://wiki.xentax.com/index.php/Call_Of_Duty_2_IWI' target="_blank" rel="noopener noreferrer"> IWI</a> importer plugin for Unity. Goal was practice in reverse engineering, file formats and peripheral Unity systems. .</p>
+      <p style={{marginTop: -34}}><a href = 'https://wiki.zeroy.com/index.php?title=Call_of_Duty_2:_d3dbsp' target="_blank" rel="noopener noreferrer"> D3DBSP</a> and <a href = 'http://wiki.xentax.com/index.php/Call_Of_Duty_2_IWI' target="_blank" rel="noopener noreferrer"> IWI</a> file importer plugin for Unity. Goal was to practice reverse engineering, file formats and peripheral Unity systems.</p>
       
       <div className="cell-container-horizontal">
         <a href='https://www.nexusmods.com/discoelysium/mods/11/' target="_blank" rel="noopener noreferrer">
